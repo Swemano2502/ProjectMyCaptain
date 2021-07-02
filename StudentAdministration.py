@@ -13,7 +13,7 @@ if __name__ == '__main__':
      num = 1
 
      while(condition):
-         student_info = input("Enter student information for student #{} in the format (Name Age Contact_Number E-mail-ID".format(num)))
+         student_info = input("Enter student information for student #{} in the format (Name Age Contact_Number E-mail-ID)".format(num))
          print("Entered student information" + student_info)
 
          student_info_list = student_info.split(" ")
@@ -34,11 +34,3 @@ if __name__ == '__main__':
                   condition = False
          elif choice_check == "no":
              print("\n Please enter valid information\n")
-                      
-        
-
-             
-                 
-
-     
-         
